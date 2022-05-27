@@ -28,14 +28,14 @@ Contador de Caracteres para un Input Text usando JavaScript
         // Coloreamos de rojo las letras
         alerta.style.color = 'red';
         return false;
-      // Si es mayor que el maximo permitido
+         // Si es mayor que el maximo permitido
       } else if(cant > max) {
         // Mensaje de alerta
         alerta.innerHTML = max + ' Máximo alcanzado, tienes ' + cant; 
         // Coloreamos de rojo las letras
         alerta.style.color = 'red';
         return false;
-      // Si todo va bien con la cantidad de caracteres
+         // Si todo va bien con la cantidad de caracteres
       } else {
         // Mensaje de todo va bien
         alerta.innerHTML = cant + ' Caracteres escritos, máximo ' + max; 
