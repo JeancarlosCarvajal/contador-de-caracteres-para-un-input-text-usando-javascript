@@ -45,5 +45,5 @@ Contador de Caracteres para un Input Text usando JavaScript
           alerta.style.color = 'green';
           return true;
         } 
-    }); 
+      }); 
   </script> 
